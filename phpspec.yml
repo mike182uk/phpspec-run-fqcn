@@ -1,0 +1,4 @@
+suites:
+  default:
+    namespace: Mdb\PhpSpecRunFQCNExtension
+    psr4_prefix: Mdb\PhpSpecRunFQCNExtension

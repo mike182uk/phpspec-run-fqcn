@@ -1,0 +1,38 @@
+{
+  "name": "mike182uk/phpspec-run-fqcn",
+  "type": "library",
+  "description": "PHPSpec run FQCN extension - Run a spec by its FQCN",
+  "keywords": ["phpspec"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael David Barrett",
+      "email": "mike182uk@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/mike182uk/phpspec-run-fqcn",
+  "require": {
+    "phpspec/phpspec": "~2.2"
+  },
+  "require-dev": {
+    "behat/behat": "~3.0",
+    "bossa/phpspec2-expect": "~1.0",
+    "symfony/process": "~2.7",
+    "fabpot/php-cs-fixer": "~1.9",
+    "symfony/filesystem": "~2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mdb\\PhpSpecRunFQCNExtension\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Foo\\": "_test/src",
+      "spec\\Foo\\": "_test/spec"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
