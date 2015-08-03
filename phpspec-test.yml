@@ -1,0 +1,10 @@
+suites:
+  default:
+    namespace: Foo
+    psr4_prefix: Foo
+    src_path: _test/src
+    spec_path: _test
+
+extensions:
+  - Mdb\PhpSpecRunFQCNExtension\Extension
+
