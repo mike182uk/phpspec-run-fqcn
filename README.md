@@ -1,4 +1,6 @@
-#PHPSpec Run FQCN
+#### ⚠️ This project is no longer maintained
+
+# PHPSpec Run FQCN
 
 [![Build Status](https://img.shields.io/travis/mike182uk/phpspec-run-fqcn.svg?style=flat-square)](http://travis-ci.org/mike182uk/phpspec-run-fqcn)
 [![Scrutinizer Quality Score](https://img.shields.io/scrutinizer/g/mike182uk/phpspec-run-fqcn.svg?style=flat-square)](https://scrutinizer-ci.com/g/mike182uk/phpspec-run-fqcn/)
@@ -8,7 +10,7 @@
 
 Run a spec for a class using its **F**ully **Q**ualified **C**lass **N**ame.
 
-##Installation
+## Installation
 
 Add this package as a dependency in your `composer.json`.
 
@@ -20,18 +22,17 @@ Add this package as a dependency in your `composer.json`.
 }
 ```
 
-Enable the extension in your `phpspec.yml`.
+Enable the extension in your `phpspec.yml`:
 
 ```
 extensions:
   - Mdb\PhpSpecRunFQCNExtension\Extension
 ```
 
-##Usage
+## Usage
 
 ```bash
 bin/phpspec desc Foo/Bar
-
 
 bin/phpspec run Foo/Bar # instead of bin/phpspec run spec/Foo/BarSpec.php
 ```
